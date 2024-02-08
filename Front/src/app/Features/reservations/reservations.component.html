@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <app-navbar></app-navbar>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Liste des Reservations</title>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2>Liste des Reservations </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Type de Reservation :</th>
+        <th scope="col">Prix de Reservation  :</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Reservation Jour</th>
+        <td>12.5$</td>
+       
+        
+        <td>
+          <button type="button" class="btn btn-primary">Modifier</button>
+          <button type="button" class="btn btn-danger">Supprimer</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Formulaire d'Ajout d'Utilisateur -->
+  <h2 class="mt-5">Ajouter une Nouvelle Reservation</h2>
+  <form>
+    <div class="form-group">
+      <label for="nom">Type de Reservation:</label>
+      <input type="text" class="form-control" id="Reservation" placeholder="Entrez le type de l'Reservation" required>
+    </div>
+    <div class="form-group">
+      <label for="PrixReserv">Prix de Reserrvation :</label>
+      <input type="text" class="form-control" id="PrixReserv" placeholder="PrixReserv" required>
+    </div>
+   
+     <button type="submit" class="btn btn-success">Ajouter</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

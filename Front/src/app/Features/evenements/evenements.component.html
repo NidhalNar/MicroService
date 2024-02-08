@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <app-navbar></app-navbar>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Liste des Utilisateurs</title>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2>Liste des Evenements </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nom Evenement :</th>
+        <th scope="col">Description Evenement :</th>
+        <th scope="col">Date Début de l'Evenement :</th>
+        <th scope="col">Date Fin De l'Evenement :</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">FiFa</th>
+        <td>PENDING</td>
+        <td>21/12/2023</td>
+        <td>22/12/2023</td>
+        
+        <td>
+          <button type="button" class="btn btn-primary">Modifier</button>
+          <button type="button" class="btn btn-danger">Supprimer</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Formulaire d'Ajout d'Utilisateur -->
+  <h2 class="mt-5">Ajouter un Nouveau Evenement</h2>
+  <form>
+    <div class="form-group">
+      <label for="nom">Nom de l'Evenement:</label>
+      <input type="text" class="form-control" id="nom" placeholder="Entrez le nom de l'Evenement" required>
+    </div>
+    <div class="form-group">
+      <label for="Description">Description Evenement:</label>
+      <input type="text" class="form-control" id="Description" placeholder="Description Evenement" required>
+    </div>
+    <div class="form-group">
+      <label for="DateDebut">Date de Début de L'Evenement :</label>
+      <input type="DateDebut" class="form-control" id="DateDebut" placeholder="Entrez le Date Debut" required>
+    </div>
+    <div class="form-group">
+        <label for="DateFin">Date de Fin de L'Evenement :</label>
+        <input type="DateFin" class="form-control" id="DateFin" placeholder="Entrez le Date de Fin" required>
+      </div>
+
+    <button type="submit" class="btn btn-success">Ajouter</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

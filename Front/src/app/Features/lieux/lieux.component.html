@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <app-navbar></app-navbar>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Liste des Lieux</title>
+</head>
+<body>
+
+<div class="container mt-5">
+
+  <h2>Liste des Lieux </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nom :</th>
+        <th scope="col">Adresse :</th>
+        <th scope="col">Code Postal :</th>
+        <th scope="col">Ville :</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Emna</th>
+        <td>Ariana Soghra</td>
+        <td>8088</td>
+        <td>Ariana :</td>
+        
+        <td>
+          <button type="button" class="btn btn-primary">Modifier</button>
+          <button type="button" class="btn btn-danger">Supprimer</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="mt-5">Ajouter un Nouvel Lieu</h2>
+  <form>
+    <div class="form-group">
+      <label for="nom">Nom de Lieu:</label>
+      <input type="text" class="form-control" id="nom" placeholder="Entrez le nom de Lieu" required>
+    </div>
+    <div class="form-group">
+      <label for="Adresse">Adresse:</label>
+      <input type="text" class="form-control" id="Adresse" placeholder="Entrez l'Adresse " required>
+    </div>
+    <div class="form-group">
+      <label for="Code">Code Postal :</label>
+      <input type="Code" class="form-control" id="Code" placeholder="Entrez le Code Postal" required>
+    </div>
+    <div class="form-group">
+        <label for="Ville">Ville :</label>
+        <input type="Ville" class="form-control" id="Ville" placeholder="Entrez la ville " required>
+      </div>
+
+    <button type="submit" class="btn btn-success">Ajouter</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

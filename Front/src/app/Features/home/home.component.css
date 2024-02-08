@@ -1,0 +1,10 @@
+/* app.component.css */
+.jumbotron {
+    background-color: #303F9F; /* Couleur de fond personnalisée */
+  }
+  
+  .jumbotron h1 {
+    font-family: 'Arial', sans-serif; /* Changer la police du titre */
+    color: #fff; /* Couleur du texte du titre */
+  }
+  

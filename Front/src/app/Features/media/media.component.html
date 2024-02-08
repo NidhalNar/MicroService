@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <app-navbar></app-navbar>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Liste des Medias</title>
+</head>
+<body>
+
+<div class="container mt-5">
+
+  <h2>Liste des Medias </h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nom :</th>
+        <th scope="col">Type :</th>
+        <th scope="col">Email :</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Mohamed Wassim Ennar</th>
+        <td>TV</td>
+        <td>mohamedwassimennar@gmail.com</td>
+        
+        <td>
+          <button type="button" class="btn btn-primary">Modifier</button>
+          <button type="button" class="btn btn-danger">Supprimer</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="mt-5">Ajouter une Nouvelle Media</h2>
+  <form>
+    <div class="form-group">
+      <label for="nom">Nom de Média:</label>
+      <input type="text" class="form-control" id="nom" placeholder="Entrez le nom de Medias" required>
+    </div>
+    <div class="form-group">
+      <label for="Adresse">Type de Média:</label>
+      <input type="text" class="form-control" id="Adresse" placeholder="Entrez le type de médias " required>
+    </div>
+    <div class="form-group">
+      <label for="Code">Email :</label>
+      <input type="Code" class="form-control" id="Code" placeholder="Entrez l'email" required>
+    </div>
+
+    <button type="submit" class="btn btn-success">Ajouter</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
